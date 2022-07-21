@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from "../../assets/me-about.jpeg"
 import {FaAward} from "react-icons/fa"
-import {FiUsers} from "react-icons/fi"
+import {FaTools} from "react-icons/fa"
 import {VscFolderLibrary} from "react-icons/vsc"
 
 function About() {
@@ -29,9 +29,9 @@ function About() {
 
             <article>
               <div className="about__card">
-                <FiUsers className='about__icon'/>
-                <h5>Clients</h5>
-                <small>+200 Worldwide</small>
+                <FaTools className='about__icon'/>
+                <h5>Technical Stack</h5>
+                <small>MERN</small><br/>
               </div>
             </article>
 
@@ -39,13 +39,15 @@ function About() {
               <div className="about__card">
                 <VscFolderLibrary className='about__icon'/>
                 <h5>Projets</h5>
-                <small>+80 Completed</small>
+                <small>+3 Completed</small>
               </div>
             </article>
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga repudiandae ab officia maiores sequi cupiditate blanditiis minus delectus. Dolore tempora natus deleniti aliquam minima asperiores in omnis mollitia corrupti nam?
+            A Fullstack developer located in Paris, I have a serious passion for Web Development, user experiences.
+            Well-organised person, problem solver with high attention of details. <br/>
+            Interested in the entire Front/Back spectrum and working on ambitious projects.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
