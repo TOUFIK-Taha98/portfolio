@@ -31,7 +31,7 @@ function About() {
               <div className="about__card">
                 <FaTools className='about__icon'/>
                 <h5>Technical Stack</h5>
-                <small>MERN</small><br/>
+                <small>MERN</small>
               </div>
             </article>
 
