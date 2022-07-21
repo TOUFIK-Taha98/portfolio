@@ -10,33 +10,28 @@ function Services() {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Google CLOUD</h3>
           </div>
-
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>CRUD Data on BigQuery</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Create a cloud functions</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Trigger functions on a specific date</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Use Node JS to get data from firebase dynamic links</p>
             </li>
           </ul>
         </article>
-        {/*End OF UI/UX* */}
+
         <article className='service'>
           <div className="service__head">
             <h3>Web Development</h3>
@@ -45,56 +40,56 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Improve code.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Find a solution for a specific problem</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>CRUD Operations.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Create a Front App with React OR Vue.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Create an API with NodeJS And Express.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Secure API's with JWT Token.</p>
             </li>
           </ul>
         </article>
         {/*End OF Web Development */}
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Deployment</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Deploy an API Rest</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Deploy a SPA (Single Page Application) created with REACT</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Hosting on Firebase</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Domains on Google Domains</p>
             </li>
           </ul>
         </article>
-        {/*End OF Content Creation */}
+
       </div>
     </section>
   )

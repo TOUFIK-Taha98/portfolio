@@ -1,33 +1,27 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG3 from '../../assets/portfolio3.png'
 
 const portfolios = [
   {
     id : 1,
     image: IMG1,
-    title: 'Lorem ipsum dolor sit.',
-    github: '#',
-    demo: '#'
+    title: 'API Places',
+    github: 'https://github.com/TOUFIK-Taha98/API-PLACES'
   },
   {
     id : 2,
     image: IMG2,
-    title: 'Lorem ipsum dolor sit amet consectetur.',
-    github: '#',
-    demo: '#'
+    title: 'BLOG Hitema',
+    github: 'https://github.com/BLOG-HITEMA'
   },
   {
     id : 3,
     image: IMG3,
-    title: 'Lorem ipsum dolor sit, amet consectetur adipisicing.',
-    github: '#',
-    demo: '#'
+    title: 'PORTFOLIO',
+    github: 'https://github.com/TOUFIK-Taha98/portfolio'
   }
 ]
 
@@ -48,7 +42,6 @@ function Portfolio() {
                 <h3>{title}</h3>
                 <div className="portfolio__item-CTA">
                   <a href={github} target="_blank" rel="noreferrer" className='btn'>Github</a>
-                  <a href={demo} target="_blank" rel="noreferrer"className='btn btn-primary'>LiveDemo</a>
                 </div>
               </article>
             )  

@@ -1,4 +1,4 @@
-.container.testimonials__container {
+.container.formations__container {
     width: 40%;
     padding-bottom: 2rem;
 }
@@ -32,14 +32,14 @@
 }
 /*============ MEDIA QUERIES (MEDUIM DEVICES) ==============*/
 @media screen and (max-width: 1024px) {
-    .container.testimonials__container {
+    .container.formations__container {
         width: 60%;
 
     }
 }
 /*============ MEDIA QUERIES (SMALL DEVICES) ==============*/
 @media screen and (max-width: 600px) {
-    .container.testimonials__container {
+    .container.formations__container {
         width: var(--container-width-sm);
     }
     .client__review {

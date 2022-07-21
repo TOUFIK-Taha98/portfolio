@@ -10,15 +10,15 @@ import {AiOutlineComment} from "react-icons/ai"
 import {useState} from 'react'
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#header')
   return (
     <nav>
-      <a href="#" onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active':''}><AiOutlineHome/></a>
+      <a href="#header" onClick={()=>setActiveNav('#header')} className={activeNav === '#header' ? 'active':''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active':''}><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active':''}><BiBook/></a>
       <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav === '#services' ? 'active':''}><RiServiceLine/></a>
       <a href="#portfolio" onClick={()=>setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active':''}><VscWorkspaceTrusted/></a>
-      <a href="#testimonials" onClick={()=>setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active':''}><AiOutlineComment/></a>
+      <a href="#formations" onClick={()=>setActiveNav('#formations')} className={activeNav === '#formations' ? 'active':''}><AiOutlineComment/></a>
       <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav === '#contact' ? 'active':''}><BiMessageSquareDetail/></a>
     </nav>
   )
