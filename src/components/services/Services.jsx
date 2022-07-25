@@ -40,7 +40,7 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Improve code.</p>
+              <p>Improve code</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -77,7 +77,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Deploy a SPA (Single Page Application) created with REACT</p>
+              <p>Deploy a SPA (Single Page Application) created with REACT OR VUE</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
