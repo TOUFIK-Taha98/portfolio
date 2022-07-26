@@ -27,7 +27,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Use Node JS to get data from firebase dynamic links</p>
+              <p>Use Node JS to get data from firebase API</p>
             </li>
           </ul>
         </article>
@@ -60,7 +60,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Secure API's with JWT Token.</p>
+              <p>Secure API's with Middlewares and JWT Token.</p>
             </li>
           </ul>
         </article>
