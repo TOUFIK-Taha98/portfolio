@@ -21,16 +21,18 @@ const App = () => {
   return (
     <>
     <Menu/>
-    <Routes>
-      <Route exact path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/works" element={<Works/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/formations" element={<Formations/>}/>
-      <Route path="/portfolio" element={<Portfolio/>}/>
-      <Route path="/services" element={<Services/>}/>
-      <Route path="/experiences" element={<Experience/>}/>
-    </Routes>
+    <div className='content'>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/works" element={<Works/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/formations" element={<Formations/>}/>
+        <Route path="/portfolio" element={<Portfolio/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/experiences" element={<Experience/>}/>
+      </Routes>
+    </div>
     <Nav/>
     <Footer/>
     </>

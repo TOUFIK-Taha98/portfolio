@@ -1,3 +1,15 @@
+.portfolio {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,12 +31,6 @@
     background: transparent;
 }
 
-.portfolio__item-image {
-    border-radius: 1.5rem;
-    
-    overflow: hidden;
-    margin-left: 6rem;
-}
 .portfolio__item-image img{
     width: 15rem;
     height: 12rem;

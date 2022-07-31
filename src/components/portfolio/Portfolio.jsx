@@ -8,6 +8,15 @@ import IMG5 from '../../assets/discoveryday.png'
 import IMG6 from '../../assets/calendar.png'
 import IMG7 from '../../assets/udalost.png'
 
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 const portfolios = [
   {
     id : 1,
@@ -65,12 +74,16 @@ function Portfolio() {
     <section id="portfolio">
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
-
-      <div className="container portfolio__container">
+      <Swiper className="container portfolio__container"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
         {
           portfolios.map(({id, image, title, stack, github, demo}) => {
             return(
-              <article className='portfolio__item'>
+              <SwiperSlide className='portfolio' key={id}>
                 <div className="portfolio__item-image">
                   <img src={image} alt="" />
                 </div>
@@ -79,11 +92,11 @@ function Portfolio() {
                 <div className="portfolio__item-CTA">
                   <a href={github} target="_blank" rel="noreferrer" className='btn'>Github</a>
                 </div>
-              </article>
+              </SwiperSlide>
             )  
           })
         }
-      </div>
+      </Swiper>
     </section>
   )
 }
