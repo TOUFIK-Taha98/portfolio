@@ -20,7 +20,7 @@ const formations = [
     time: '2021-2023',
     avatar: AVTR1,
     review: `
-    <b>IT Expert - Web Development</b> <br/>
+    <b>Apprenticeship : IT Expert - Web Development</b> <br/>
     <ul>
       <li>Analyze a need, a specification.</li>
       <li>Design architectures</li>
