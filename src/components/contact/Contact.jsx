@@ -34,12 +34,6 @@ const Contact = () => {
             <h5>bookingtaha98@gmail.com</h5>
             <a href="mailto:bookingtaha98@gmail.com" target="_blank">Send an email</a>
           </article>
-          <article className='contact__option'>
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+33 7 66 49 18 **</h5>
-            <a href="https://api.whatsapp.com/send?phone=0033766491893" target="_blank">Send a message</a>
-          </article>
         </div>
         {/**END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

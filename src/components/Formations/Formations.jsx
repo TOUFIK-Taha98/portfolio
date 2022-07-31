@@ -17,6 +17,7 @@ const formations = [
   {
     id: 1,
     name: 'H3 Hitema',
+    time: '2021-2023',
     avatar: AVTR1,
     review: `
     <b>IT Expert - Web Development</b> <br/>
@@ -34,6 +35,7 @@ const formations = [
   {
     id: 2,
     name: 'IUT Nancy Charlemagne',
+    time: '2020-2021',
     avatar: AVTR2,
     review: `
       <b>Professional License Design-Integration of Web Applications and Services for the Company</b><br/>
@@ -55,13 +57,14 @@ const Formations = () => {
         pagination={{ clickable: true }}
       >
         {
-          formations.map(({id, name, avatar, review}) => {
+          formations.map(({id, name, time, avatar, review}) => {
             return (
               <SwiperSlide className='testimonial' key={id}>
                 <div className="client__avatar">
                   <img src={avatar} alt="formation"/>
                 </div>  
                 <h5 className='client__name'>{name}</h5>
+                <h6>{time}</h6>
                 <small className='client__review' dangerouslySetInnerHTML={{__html: review}}></small>
               </SwiperSlide>
             )

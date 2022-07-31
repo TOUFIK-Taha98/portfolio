@@ -17,6 +17,7 @@ const works = [
   {
     id: 1,
     name: 'ORANGE ARCUEIL',
+    time: '11 months',
     avatar: AVTR1,
     review: `
     <b>Web Developer/Tracker</b> <br/>
@@ -40,6 +41,7 @@ const works = [
   {
     id: 2,
     name: 'LORIA Nancy',
+    time: '4 months',
     avatar: AVTR2,
     review: `
       <b>Web Developer</b><br/>
@@ -71,13 +73,14 @@ const Works = () => {
         pagination={{ clickable: true }}
       >
         {
-          works.map(({id, name, avatar, review}) => {
+          works.map(({id, name, time,  avatar, review}) => {
             return (
               <SwiperSlide className='Wwork' key={id}>
                 <div className="work__avatar">
                   <img src={avatar} alt="work"/>
                 </div>  
                 <h5 className='work__name'>{name}</h5>
+                <h6>{time}</h6>
                 <small className='work__review' dangerouslySetInnerHTML={{__html: review}}></small>
               </SwiperSlide>
             )

@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    height: 63vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -43,7 +43,7 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 28rem;
+    height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 3rem;
