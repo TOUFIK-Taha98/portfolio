@@ -1,7 +1,7 @@
 header{
-    height: 100vh;
+    height: 63vh;
     padding-top: 7rem;
-    overflow: hidden;
+    margin-top: 8rem;
 }
 
 .header__container{
@@ -29,6 +29,7 @@ header{
     position: absolute;
     left: 0%;
     bottom: 3rem;
+    font-size: 2rem;
 }
 
 .header__socials::after{
@@ -43,7 +44,7 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 28rem;
+    height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 3rem;
@@ -52,17 +53,6 @@ header{
     padding: 6rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* ============== SCROLL DOWN ================= */
-
-.scroll__down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-style: 0.9rem;
-
-}
 
 /*============ MEDIA QUERIES (MEDUIM DEVICES) ==============*/
 @media screen and (max-width: 1024px) {
