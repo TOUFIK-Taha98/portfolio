@@ -20,7 +20,9 @@ import {
 const App = () => {
   return (
     <>
-    <Menu/>
+    <div className='menu'>
+      <Menu/>
+    </div>
     <div className='content'>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
@@ -34,7 +36,9 @@ const App = () => {
       </Routes>
     </div>
     <Nav/>
-    <Footer/>
+    <div className='footer'>
+      <Footer/>
+    </div>
     </>
   )
 }

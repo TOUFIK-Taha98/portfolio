@@ -4,7 +4,7 @@ import './menu.css'
 const Menu = () => {
   return (
     <div class="topnav" id="myTopnav">
-        <span>Taha</span>
+        <span>created using reactJS</span>
     </div>
   )
 }

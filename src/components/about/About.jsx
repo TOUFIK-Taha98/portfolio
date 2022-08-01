@@ -4,6 +4,9 @@ import ME from "../../assets/me-about.png"
 import {FaAward} from "react-icons/fa"
 import {FaTools} from "react-icons/fa"
 import {VscFolderLibrary} from "react-icons/vsc"
+import {
+  Link
+} from "react-router-dom";
 
 function About() {
   return (
@@ -50,7 +53,7 @@ function About() {
             Interested in the entire Front/Back spectrum and working on ambitious projects.
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <Link to="/contact" className='btn btn-primary'>Let's Talk</Link>
         </div>
       </div>
     </section>
