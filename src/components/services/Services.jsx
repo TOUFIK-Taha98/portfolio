@@ -15,11 +15,11 @@ function Services() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>CRUD Data on BigQuery</p>
+              <p>CRUD Data with BigQuery</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create a cloud functions</p>
+              <p>Manage Cloud functions on GCP</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -27,7 +27,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Use Node JS to get data from firebase API</p>
+              <p>Use Node JS to get data from a firebase API</p>
             </li>
           </ul>
         </article>
@@ -52,7 +52,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create a Front App with React OR Vue.</p>
+              <p>Create components App with React OR Vue.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -77,15 +77,11 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Deploy a SPA (Single Page Application) created with REACT OR VUE</p>
+              <p>Deploy a SPA (Single Page Application)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Hosting on Firebase</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Domains on Google Domains</p>
+              <p>Manage hosting with Firebase OR Heroku</p>
             </li>
           </ul>
         </article>
