@@ -8,10 +8,14 @@ function Experience() {
     {title: 'CSS', level: 'Intermediate'},
     {title: 'Javascript', level: 'Intermediate'},
     {title: 'Bootstrap', level: 'Experienced'},
-    {title: 'ReactJS', level: 'Experienced'}
+    {title: 'Tailwindcss', level: 'Experienced'},
+    {title: 'ReactJS', level: 'Experienced'},
+    {title: 'VueJS', level: 'Experienced'},
+    {title: 'Angular', level: 'Experienced'}
   ];
   const backend = [
     {title: 'Node JS', level: 'Experienced'},
+    {title: 'Express', level: 'Experienced'},
     {title: 'MongoDB', level: 'Experienced'},
     {title: 'API REST', level: 'Experienced'},
     {title: 'JWT', level: 'Experienced'},

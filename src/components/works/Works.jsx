@@ -32,6 +32,7 @@ const works = [
       <li>Javascript</li>
       <li>NodeJS - Express</li>
       <li>Google Cloud</li>
+      <li>Google Analytics</li>
       <li>Firebase</li>
       <li>BigQuery</li>
       <li>Cloud functions</li>
